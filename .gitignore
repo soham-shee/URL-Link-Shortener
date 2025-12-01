@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Virtual environment folders
+venv/
+.venv/
+
+# Build / dist (if you ever package it)
+dist/
+build/
+
+# Logs
+*.log
