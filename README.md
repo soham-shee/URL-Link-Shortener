@@ -55,7 +55,7 @@ To run this project, you will need to add the following environment variables to
 
 #### Generates the short link of URL
 
-```http
+```https
   POST /shorten
 ```
 
@@ -66,7 +66,7 @@ To run this project, you will need to add the following environment variables to
 
 #### Redirects to original URL
 
-```http
+```https
   GET /{short_id}
 ```
 
@@ -77,7 +77,7 @@ To run this project, you will need to add the following environment variables to
 
 #### Shows the info of URL and it's short_id
 
-```http
+```https
   GET /info/{short_id}
 ```
 
