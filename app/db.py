@@ -10,5 +10,3 @@ mongo = MongoClient(
 
 db = mongo["urlshort"]
 urls=db["url"]
-
-print("MONGO_URL LOADED:", settings.MONGO_URL)
